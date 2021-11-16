@@ -8,4 +8,7 @@ Will probably update this repo as I go.
 
 GTK theme is basically a forked version of Chicago95 with my own modifications with icons, etc being nabbed from other sources.
 
+Dependencies: icewm, xfce4, gtk3-classic, libxfce4ui-nocsd.
+Optional Dependencies: rofi, dunst
+
 Disclaimer: My ig fork of Chicago95 will probably not support anything but my configuration, so don't expect me doing other DEs
