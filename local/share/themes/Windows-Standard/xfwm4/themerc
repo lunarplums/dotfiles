@@ -1,0 +1,60 @@
+# Name: Windows Standard xfwm4 Theme
+# Author: Grassmunk
+# License: GPL-3.0+
+# Changed slightly from Redmond to allow for a 
+# Rewritten 2020 to match whats happening in Windows 95 
+
+#activetitle
+active_color_1=#9985d1
+active_color_2=#aabae7
+
+#inactivetitle
+inactive_color_1=#808080
+inactive_color_2=#808080
+
+#titletext
+active_text_color=#edebf7
+
+#inactivetitletext
+inactive_text_color=#edebf7
+
+#buttonface
+active_mid_1=#edebf7
+inactive_mid_1=#edebf7
+
+#buttonLight
+active_hilight_1=#ffffff
+inactive_hilight_1=#ffffff
+
+#buttonhilight
+active_hilight_2=#edebf7
+inactive_hilight_2=#edebf7
+
+#activeborder
+active_border_color=#C0C0C0
+inactive_border_color=#C0C0C0
+
+#buttonShadow
+active_shadow_2=#9e9ca4
+inactive_shadow_2=#9e9ca4
+
+#buttonDKShadow
+active_shadow_1=#000000
+inactive_shadow_1=#000000
+
+#buttontext
+active_mid_2=#000000
+inactive_mid_2=#000000
+
+button_layout=O|HMC
+button_offset=1
+button_spacing=0
+full_width_title=true
+maximized_offset=2
+show_app_icon=true
+title_alignment=left
+title_horizontal_offset=2
+title_vertical_offset_active=2
+title_vertical_offset_inactive=2
+
+frame_border_top=4

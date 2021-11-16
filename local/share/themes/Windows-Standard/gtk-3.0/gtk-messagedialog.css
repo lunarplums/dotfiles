@@ -1,0 +1,39 @@
+/******************
+ * Message Dialog *
+ ******************/
+
+/*
+   Contributor notes:
+   Please use two space indentions.
+   Stack all related and child selectors and selector states into a logical hierarchy to a readable degree.
+   Make sure that all changes made here are part of the GtkMessageDialog.
+*/
+
+messagedialog .titlebar {
+  border: 1px solid;
+  border-radius: 0px;
+  border-top-color: @border_light;
+  border-right-color: @border_dark;
+  border-left-color: @border_light;
+  border-bottom-color: @bg_color;
+  box-shadow: inset 1px 1px @border_bright, inset -1px 0px @border_shade; }
+
+/*messagedialog .dialog-action-area {
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: -7px;
+}
+
+messagedialog .dialog-action-area label {
+  margin-top: -6px;
+}
+
+messagedialog .dialog-vbox {
+  margin-top: -1px;
+  margin-left: -3px;
+  margin-right: -3px;
+}
+
+messagedialog .dialog-vbox button label {
+  padding-top: 9px;
+}*/
