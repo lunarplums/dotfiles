@@ -1,7 +1,5 @@
 # dotfiles
-Linux themes etc for my personal system.
-
-Conversion? My personal dotfiles that converts XFCE4's UI into basically 
+My personal dotfiles that converts XFCE4's UI into basically 
 Windows 2000 / 9x UI.
 
 Some extra configs too for dunst, kitty, etc.
