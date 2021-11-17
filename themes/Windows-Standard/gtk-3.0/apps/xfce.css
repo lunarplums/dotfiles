@@ -35,10 +35,7 @@ XfdesktopIconView.view {
 
 /* XFCE Panel Bar */
 .xfce4-panel {
-  box-shadow: none;
-  border: 0px solid @border_dark;
-  border-image: url("../buttons/dialog_button_normal.png");
-  border-image-slice: 1 1 1 1; }
+  box-shadow: none; }
   /* Note: The ".xfce4-panel > widget > frame" and ".xfce4-panel .flat:not(.toggle)" CSS classes are specified in this manner due to the volatility in the naming of CSS IDs presented by the XFCE panelbar.*/
   .xfce4-panel > widget > frame, /* affects the frame of the notification area plugin for GTK2 notifications. */
   .xfce4-panel .flat:not(.toggle), /* affects the launcher buttons as well and the status notifier plugin. */
