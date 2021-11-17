@@ -1,0 +1,9 @@
+/**********
+ * Thunar *
+ **********/
+
+.thunar toolbar toolitem box { 
+margin-left: 8px;
+margin-top: 2px;
+margin-bottom: 2px;
+}  
