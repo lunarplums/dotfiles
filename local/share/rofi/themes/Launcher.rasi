@@ -24,7 +24,7 @@ configuration {
     background-color: #edebf700;
 }
 window {
-    background-image: url("/.themes/Windows-Standard/rofi/launcherbg.png");
+    background-image: url("/home/lunarplums/.themes/Windows-Standard/rofi/launcherbg.png");
     anchor: center;
     border: 0px;
     height: 324px;
