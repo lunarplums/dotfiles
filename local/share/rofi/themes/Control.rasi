@@ -16,14 +16,14 @@ configuration {
     background: #edebf700;
     selected-background: #aabae7;
     foreground: #ffffff00;
-    text:#434C5E; 
-    selected-text: #edebf7;  
+    text:#434C5E;
+    selected-text: #edebf7;
     disabled-text: #9e9ca4;
     border-color: @foreground;
     background-color: #edebf700;
 }
 window {
-    background-image:  url("/home/lunarplums/.local/share/themes/Windows-Standard/rofi/controlbg.png");
+    background-image:  url("/.themes/Windows-Standard/rofi/controlbg.png");
     anchor: center;
     height: 328px;
     width: 417px;
