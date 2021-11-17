@@ -1,9 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Name=Windows-Standard
-Type=X-GNOME-Metatheme
-Comment=A theme mimicking Windows Standard.
-
-[X-GNOME-Metatheme]
-GtkTheme=Windows-Standard
-MetacityTheme=Windows-Standard
