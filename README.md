@@ -10,3 +10,8 @@ Optional Dependencies: rofi, dunst, kitty.
 
 Preview of the theme:
 ![2021-11-16-234129_3520x1200_scrot](https://user-images.githubusercontent.com/80290460/142141645-2769c2ef-c094-40a3-aaaa-aad47a4a8eb7.png)
+
+Credits/Sources:
+https://github.com/grassmunk/Chicago95
+https://github.com/ClassicOS-Themes/ClassicOS-2000-Icons
+https://github.com/rozniak/xfce-winxp-tc
