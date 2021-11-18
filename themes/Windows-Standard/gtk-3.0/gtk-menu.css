@@ -10,51 +10,80 @@
 */
 
 /* we dont want any extra padding in these */
-menuitem > window,
+/*menuitem > window,
 window > menu {
   padding: 3px;
   border: 3px solid @border_dark;
   border-image: url("assets/border_decoration.png");
   border-image-slice: 3 3 3 3;
-  box-shadow: none; }
-
-.menu {
-  padding: 0px;
-  border: 1px solid @border_dark;
-  box-shadow: none;
+  box-shadow: none; }*/
+menu,
+.menu,
+.context-menu{
+  -gtk-icon-style: regular;
   background-color: @bg_bright;
   color: @text_color;
-  -gtk-icon-style: regular }
+  padding: 3px;
+  border: 3px solid @border_bright;
+  border-image: url("assets/border_decoration.png");
+  border-image-slice: 3 3 3 3;
+  background-color: @border_dark;}
 
 /* NOTE: Menu border styling is moved to client side decorations. See gtk-window.css for menu border styling. */
 menu {
   background-color: @menu_bg_color;    /* NOTE: While a background colour is required here, there will be a 2px internal padding applied to window decorations which will also have a background colour too. */
-  color: @menu_text_color;
-  text-shadow: none;
-  -gtk-icon-shadow: none;
-  -gtk-icon-style: regular }
+  color: @menu_text_color;}
   menu menuitem {
+    margin-left: -2px;
+    padding-right: 17px;
     min-height: 17px;
     background-color: transparent; }
-    menu menuitem check,
-    menu menuitem radio {
-      padding-right: 4px; }
+  menu menuitem radio:checked,
+  menu menuitem radio:indeterminate,
+  menu menuitem check:indeterminate,
+  menu menuitem check:checked {
+    -gtk-icon-source: url("assets/checkbox-checked-menus.png");
+    -gtk-icon-transform: none;
+    background: none;
+    padding-left: 3px; }
+  menu menuitem radio:not(:checked),
+  menu menuitem check:not(:checked) {
+    -gtk-icon-source: url("");
+    -gtk-icon-transform: none;
+    padding-left: 3px; }
+  menu menuitem radio:disabled:not(checked),
+  menu menuitem radio:disabled:checked,
+  menu menuitem check:indeterminate:disabled,
+  menu menuitem radio:indeterminate:disabled,
+  menu menuitem check:disabled:not(checked),
+  menu menuitem check:disabled:checked {
+    -gtk-icon-source: url("assets/checkbox-checked-menus-insensitive.png");
+    background: none;
+    padding-left: 3px; }
     menuitem:active,
     menuitem:hover {
       background-color: @theme_selected_bg_color;
       color: @selected_fg_color; }
+/*      menu menuitem label {
+        margin-left: -3px; }*/
 
 /* menubar */
 menubar,
 .menubar {
   -GtkWidget-window-dragging: false;
-  padding: 2px 0px 3px 5px;
+  padding: 2px 0px 2px 0px;
   background-color: @menu_bg_color;
   color: @menu_text_color;
   text-shadow: none;
   -gtk-icon-shadow: none; }
-  menubar menuitem {
-    padding: 0px 12px 0px 1px; }
+  menubar label{
+    padding: 0px 6px 0px 6px; }
+/*    menubar menuitem:active,
+    menubar menuitem:hover {
+      margin: -1px;
+      border: 1px solid @border_dark;
+      border-image: url("assets/frame_basic.png");
+      border-image-slice: 1 1 1 1 ; }*/
 
 menu separator {
   padding: 3px;

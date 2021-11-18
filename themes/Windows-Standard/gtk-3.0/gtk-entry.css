@@ -10,6 +10,7 @@
 */
 
 entry {
+  margin-top: 1px;
   min-width: 20px;
   min-height: 16px;
   padding-left: 2px;
@@ -22,8 +23,6 @@ entry {
   box-shadow: none;
   background-color: @bg_bright; }
   entry:disabled {
-    padding-top: 1px;
-    padding-bottom: 1px;
     background-color: @bg_color;
     color: @text_color;
     background-image: none; }

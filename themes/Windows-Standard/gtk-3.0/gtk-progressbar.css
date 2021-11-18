@@ -20,18 +20,23 @@ progressbar trough {
 levelbar.horizontal trough,
 progressbar.horizontal trough,
 progressbar.horizontal progress {
-  min-height: 14px; }
+  min-height: 11px; }
 levelbar.vertical trough,
 progressbar.vertical trough,
 progressbar.vertical progress {
-  min-width: 14px; }
+  min-width: 11px; }
 
 levelbar block,
 progressbar progress {
-  background-image: none;
+  background-image: url("assets/progressbar_horizontal.png");
   background-color: @selected_bg_color; }
   levelbar block.empty {
     background-color: @bg_color; }
+  progressbar.vertical progress {
+    background-image: url("assets/progressbar_vertical.png");
+    background-color: @selected_bg_color; }
+    levelbar block.empty {
+      background-color: @bg_color; }
 
 levelbar.vertical.discrete block {
   margin-top: 2px; }
@@ -132,5 +137,3 @@ treeview.view.trough {
     border-right: 1px solid @border_dark;
     background-color: @bg_bright;
     border-radius: 0px; }
-
-

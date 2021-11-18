@@ -11,37 +11,57 @@
 
 /* Combobox */
 combobox {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border: 2px solid @border_dark;
+  border-image: url("assets/entry.png");
+  border-image-slice: 2 2 2 2;
   background-color: @bg_color; }
+  combobox button:focus,
   combobox button {
-    padding-left: 4px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-right: 2px;
-    margin-left: 2px;
-    min-width: 16px;
-    min-height: 15px; } /* Set to 15px to prevent scaling issues with arrow icon. */
+    background-image: url("combobox/combobox_button_normal.png");
+    background-color: @bg_bright;
+    background-position: right;
+    background-repeat:   no-repeat;
+    background-size:     contain;
+    border-width:        0px;
+    margin:              0px;
+    min-height:          17px;
+    min-width:           16px; }
     combobox button:active,
     combobox button:checked {
-      border-color: @border_shade;
-      box-shadow: none; }
+      background-image: url("combobox/combobox_button_active.png");
+      background-position: right;
+      background-repeat:   no-repeat;
+      background-size:     contain;
+      border-width:        0px;
+      margin:              0px;
+      min-height:          17px;
+      min-width:           16px; }
+    combobox button:disabled {
+      background-image: url("combobox/combobox_button_insense.png");
+      background-position: right;
+      background-repeat:   no-repeat;
+      background-size:     contain;
+      border-width:        0px;
+      margin:              0px;
+      min-height:          17px;
+      min-width:           16px; }
     * combobox button {
-    padding-left: 0px; }
-
-/* The default cellview top or bottom margin will affect the arrow icon scaling in the combobox button. To resolve this, we will add a negative margin. */
-
+        padding-left: 0px; }
 
 /* Combobox entry */
 combobox entry {
   /* This will move combobox buttons into the entry
    * Libre Office is particular about the positioning of the button, or else it will hide the right side entry border. */
-  margin-right: -20px;
-  padding-right: 20px; }
+  margin-right: -0px;
+  border-width: 0px;
+  padding-right: 0px; }
 /* Since the above margins are not enough for regular GTK applications, we can use the following. LibreOffice VCL doesn't support the asterisk * wildcard selector in this case. */
   * combobox entry {
-    margin-top: 1px;
-    margin-bottom: 2px;
-    margin-right: -26px;
-    padding-right: 24px; }
+    margin-top: 0px;
+    margin-right:  0px;
+    padding-right: 0px; }
 
 /* Combobox window and menu decorations */
 combobox window decoration {
@@ -58,46 +78,14 @@ combobox window menu {    /* The combobox window menu is included for sub-menus 
       margin-right: 1px; }    /* A margin is required so that the separator isn't touching the menu border. */
 #gtk-combobox-popup-menu,
 #gtk-combobox-popup-menu window {
-  border: none;    /* Borders are not necessary here. */
+  padding: 1px;
+  border: 1px solid @border_dark;    /* Borders are not necessary here. */
   box-shadow: none;    /* Box shadows are not necessary here. */
   background-color: @bg_bright; }    /* Background colour needs to be applied. */
   #gtk-combobox-popup-menu arrow  {
     -gtk-icon-source: none; }
   #gtk-combobox-popup-menu menuitem {
     padding: 0px;    /* Remove any inherited padding. */
-    padding-left: 2px;    /* Need padding on the left to keep menuitem images from touching the border. */
-    padding-right: 2px;    /* Need padding on the right to keep menuitem images from touching the border. */
-    min-height: 16px; }
-
-
-/* Combobox arrows */
-combobox arrow {
-  -gtk-icon-source: url("assets/vcl-combobox-arrow-down.png");
-  margin-bottom: -1px;
-  min-width: 16px;
-  min-height: 16px; } /* 16px icons only or else Libreoffice will distort the icon. */
-  combobox:disabled arrow:disabled {
-  margin-bottom: -1px;
-  min-width: 16px;
-  min-height: 16px;
-  -gtk-icon-source: url("assets/vcl-combobox-arrow-down-disabled.png");
-  -gtk-icon-shadow: none; }
-  /* The following should apply for the rest of the theme. This won't affect Libreoffice comboboxes. */
-  combobox > box > button > box > arrow {
-    background-image: url("assets/vcl-combobox-arrow-down.png");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: 16px 16px;
-    margin-bottom: -1px;
-    min-width: 16px;
-    min-height: 16px;
-    -gtk-icon-source: none; }
-    combobox:disabled > box > button > box > arrow:disabled {
-      background-image: url("assets/vcl-combobox-arrow-down-disabled.png");
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
-      background-size: 16px 16px;
-      margin-bottom: -1px;
-      min-width: 16px;
-      min-height: 16px;
--gtk-icon-source: none; }
+    padding-left: 1px;    /* Need padding on the left to keep menuitem images from touching the border. */
+    padding-right: 0px;    /* Need padding on the right to keep menuitem images from touching the border. */
+    min-height: 13px; }

@@ -142,10 +142,7 @@
 @import url("apps/xfce.css");
 @import url("apps/whiskermenu.css");
 @import url("apps/filechooser.css");
-@import url("apps/mate.css");
 @import url("apps/thunar.css");
-@import url("apps/caja.css");
-@import url("apps/nemo.css");
 
 /* Please keep these in their originial load order. */
 @import url("gtk-widgets.css");
