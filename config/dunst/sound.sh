@@ -1,2 +1,2 @@
 #!/bin/sh
-paplay "/home/lunarplums/.local/share/sounds/Windows-Standard/stereo/notify.wav"
+paplay --volume 49152 ".sounds/Windows-Standard-Sounds/stereo/notify.wav"

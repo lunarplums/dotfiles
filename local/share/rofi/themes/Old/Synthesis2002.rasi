@@ -1,0 +1,82 @@
+/**
+ * Synthesis 2002 Power Menu
+ * User: lunarplums
+ */
+
+configuration {
+    display-window: "Windows:";
+    display-ssh: "SSH";
+    show-icons: true;
+    drun-display-format: "{icon} {name}";
+    me-accept-entry: "MousePrimary";
+    me-select-entry: "";
+}
+* {
+    foreground:                 #ffffff00;
+    text:                         	#434C5E; 
+    selected-text:             	#edebf7; 
+    background:                #edebf700;
+    selected-background:          #aabae7;
+    border-color:                 @foreground;
+    background-color:             #edebf700;
+}
+window {
+    location:   south west;
+    anchor:   south west;
+    x-offset:   8px;        
+    y-offset:   -36px;
+    background-color: @background;
+    border:           0;
+    padding:          3;
+    height: 86;
+    width: 87;
+}
+mainbox {
+    border:  0;
+    padding: 0;
+}
+textbox {
+    text-color: @text;
+}
+listview {
+    spacing:      0px ;
+    padding:      0px 0px 0px;
+    columns: 1;
+}
+element-icon {
+    size: 0px;
+    border: 0px;
+}
+element-text {
+    text-color: @text;
+    expand: true;
+    vertical-align: 0;
+    margin:     2px 0px 0px 12px;
+}
+element {
+    text-color:       @text;
+    border:  0;
+    padding: 3px 0px 3px;
+}
+element.selected {
+    background-color: @selected-background;
+    text-color:       @selected-text;
+}
+inputbar {
+    text-color: @text;
+    spacing:    0;
+    padding:    0px ;
+    enabled: false;
+}
+entry {
+    text-color: @text;
+    spacing:    0;
+    enabled: false;
+}
+prompt {
+    text-color: @text;
+    spacing:    0;
+    enabled: false;
+}
+
+

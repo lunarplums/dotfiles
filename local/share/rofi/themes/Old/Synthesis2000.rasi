@@ -1,0 +1,83 @@
+/**
+ * Synthesis 2000 Launcher Menu
+ * User: lunarplums
+ */
+
+configuration {
+  	display-drun: "スタート:";
+  	display-window: "Windows:";
+  	display-ssh: "SSH";
+	show-icons: true;
+  	drun-display-format: "{icon} {name}";
+    me-accept-entry: "MousePrimary";
+    me-select-entry: "";
+}
+* {
+	font: "systemu 9";
+	icon-font: "Hurmit Nerd Font 10";
+
+    foreground:                   	#ffffff00;
+    text:                        	 	#434C5E; 
+    selected-text:                	#edebf7;  
+    background:                   	#edebf700;
+    selected-background:         #aabae7;
+    border-color:                 	@foreground;
+    background-color:             	#edebf700;
+}
+window {
+    background-image:  url("/.config/rofi/assets/launcherbg.png", both)
+    background-color: @background;
+    border:           3;
+    padding:          6;
+    height: 318;
+    width: 570;
+}
+mainbox {
+    border:  0;
+    padding: 0;
+}
+textbox {
+    text-color: @text;
+}
+listview {
+    spacing:      0px ;
+    padding:      33px 15px 0px ;
+    columns: 1;
+}
+element-icon {
+    size: 16px;
+    padding: 0px 3px 0px;
+    border: 0px;
+}
+element-text {
+    text-color: @text;
+    expand: true;
+    vertical-align: 0;
+    margin:     2px 0px 0px -3px;
+}
+element {
+    text-color:       @text;
+    border:  0;
+    padding: 3px 0px 3px;
+}
+element.selected {
+    background-color: @selected-background;
+    text-color:       @selected-text;
+}
+inputbar {
+    text-color: @text;
+    spacing:    0;
+    padding:    0px ;
+}
+entry {
+    text-color: @text;
+    spacing:    0;
+    padding:      62px 18px 0px ;
+    font: "systemu 9";
+}
+prompt {
+    text-color: @text;
+    spacing:    0;
+    enabled: false;
+    font: "system bold 18";
+}

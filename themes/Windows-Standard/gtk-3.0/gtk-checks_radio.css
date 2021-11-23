@@ -35,49 +35,61 @@ checkbutton:focus label{
 check:checked {
   -gtk-icon-source: url("assets/checkbox-checked.png");
   -gtk-icon-transform: none;
-  background: none; }
+  background: none;
+  padding-top: 2px; }
 
 check:not(:checked) {
   -gtk-icon-source: url("assets/checkbox-unchecked.png");
   -gtk-icon-transform: none;
-  background: none; }
+  background: none;
+  padding-top: 2px; }
 
 check:indeterminate {
   -gtk-icon-source: url("assets/checkbox-mixed.png");
-  background: none; }
+  background: none;
+  padding-top: 2px; }
 
 check:disabled:checked {
   -gtk-icon-source: url("assets/checkbox-checked-insensitive.png");
-  background: none; }
+  background: none;
+  padding-top: 2px; }
 
 check:disabled:not(checked) {
   -gtk-icon-source: url("assets/checkbox-unchecked-insensitive.png");
-  background: none; }
+  background: none;
+  padding-top: 2px; }
 
 check:indeterminate:disabled {
   -gtk-icon-source: url("assets/checkbox-mixed-insensitive.png");
-  background: none; }
+  background: none;
+  padding-top: 2px; }
 
 radio:checked {
   -gtk-icon-source: url("assets/radio-selected.png");
-  background: none }
+  background: none;
+  padding-top: 2px; }
 
 radio:not(:checked) {
   -gtk-icon-source: url("assets/radio-unselected.png");
-  background: none }
+  background: none;
+  padding-top: 2px; }
 
 radio:indeterminate {
   -gtk-icon-source: url("assets/radio-mixed.png");
-  background: none }
+  background: none;
+  padding-top: 2px; }
 
 radio:disabled:checked {
   -gtk-icon-source: url("assets/radio-selected-insensitive.png");
-  background: none }
+  background: none;
+  padding-top: 2px; }
 
 radio:disabled:not(checked) {
   -gtk-icon-source: url("assets/radio-unselected-insensitive.png");
-  background: none }
+  background: none;
+  padding-top: 2px; }
 
 radio:indeterminate:disabled {
   -gtk-icon-source: url("assets/radio-mixed-insensitive.png");
-  background: none }
+  background: none;
+  padding-top: 2px; }

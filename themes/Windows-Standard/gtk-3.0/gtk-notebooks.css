@@ -78,8 +78,8 @@ notebook > header.top > tabs > tab {
   border-image: url("assets/notebook_top.png");
   border-image-slice: 3 3 3 3; }
   notebook > header.top > tabs > tab label {
-    margin-left: 3px;
-    margin-right: 3px; }
+    margin-left: 4px;
+    margin-right: 4px; }
   notebook > header.top > tabs > tab:checked {
     margin-left: -3px;
     margin-right: -3px;
@@ -89,8 +89,8 @@ notebook > header.top > tabs > tab {
     border-image-slice: 3 3 3 3; }
   notebook > header.top > tabs > tab:checked label {
     margin-bottom: 2px;
-    margin-left: 3px;
-    margin-right: 3px;}
+    margin-left: 5px;
+    margin-right: 5px;}
   notebook > header.top > tabs > arrow {
     padding: 2px; }
   notebook > header.top > tabs > arrow.up {

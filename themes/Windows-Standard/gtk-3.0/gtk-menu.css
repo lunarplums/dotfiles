@@ -39,22 +39,46 @@ menu {
     min-height: 17px;
     background-color: transparent; }
   menu menuitem radio:checked,
-  menu menuitem radio:indeterminate,
+  menu menuitem radio:indeterminate{
+    -gtk-icon-source: url("assets/radio-checked-menus.png");
+    -gtk-icon-transform: none;
+    background: none;
+    padding-left: 3px;
+    padding-bottom: 2px; }
   menu menuitem check:indeterminate,
   menu menuitem check:checked {
     -gtk-icon-source: url("assets/checkbox-checked-menus.png");
     -gtk-icon-transform: none;
     background: none;
-    padding-left: 3px; }
+    padding-left: 3px;
+    padding-bottom: 2px; }
+  menu menuitem:active > radio:checked,
+  menu menuitem:hover > radio:checked {
+    -gtk-icon-source: url("assets/radio-checked-menus-selected.png");
+    -gtk-icon-transform: none;
+    background: none;
+    padding-left: 3px;
+    padding-bottom: 2px;  }
+  menu menuitem:active > check:checked,
+  menu menuitem:hover > check:checked {
+    -gtk-icon-source: url("assets/checkbox-checked-menus-selected.png");
+    -gtk-icon-transform: none;
+    background: none;
+    padding-left: 3px;
+    padding-bottom: 2px; }
   menu menuitem radio:not(:checked),
   menu menuitem check:not(:checked) {
     -gtk-icon-source: url("");
     -gtk-icon-transform: none;
-    padding-left: 3px; }
-  menu menuitem radio:disabled:not(checked),
-  menu menuitem radio:disabled:checked,
-  menu menuitem check:indeterminate:disabled,
+    padding-left: 3px;
+    padding-bottom: 2px; }
   menu menuitem radio:indeterminate:disabled,
+  menu menuitem radio:disabled:not(checked),
+  menu menuitem radio:disabled:checked {
+    -gtk-icon-source: url("assets/radio-checked-menus-insensitive.png");
+    background: none;
+    padding-left: 3px; }
+  menu menuitem check:indeterminate:disabled,
   menu menuitem check:disabled:not(checked),
   menu menuitem check:disabled:checked {
     -gtk-icon-source: url("assets/checkbox-checked-menus-insensitive.png");
@@ -66,7 +90,9 @@ menu {
       color: @selected_fg_color; }
 /*      menu menuitem label {
         margin-left: -3px; }*/
-
+        menuitem image {
+          margin-left: -2px; }
+          
 /* menubar */
 menubar,
 .menubar {
@@ -107,6 +133,7 @@ menu arrow {
   background-size: 10px;
   min-height: 10px;
   min-width: 10px;
+  margin-right: -18px;
   -gtk-icon-source: none; }
   menu :hover > arrow {
     background-image: url("assets/arrow-down-selected.png"); }
