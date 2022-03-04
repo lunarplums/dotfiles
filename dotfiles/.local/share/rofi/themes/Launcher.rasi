@@ -1,0 +1,84 @@
+/**
+ * Synthesis 2000 Launcher Menu
+ * User: lunarplums
+ */
+
+configuration {
+    display-drun: "スタート:";
+    display-window: "Windows:";
+    display-ssh: "SSH";
+    show-icons: true;
+    drun-display-format: "{icon} {name}";
+    me-accept-entry: "MousePrimary";
+    me-select-entry: "";
+}
+* {
+    font: "MS Sans Serif Bitmap 9";
+    background: #c0c0c000;
+    selected-background: #000080;
+    foreground: #ffffff00;
+    text:#000000;
+    selected-text: #ffffff;
+    disabled-text:#808080;
+    border-color: @foreground;
+    background-color: #c0c0c000;
+}
+window {
+    background-image: url("/home/lunarplums/.local/share/themes/WinClassic/rofi/launcherbg.png");
+    anchor: center;
+    border: 0px;
+    height: 324px;
+    width: 576px;
+}
+mainbox {
+    border:  0px;
+    padding: 0px;
+}
+inputbar {
+    text-color: @text;
+    spacing:    0px;
+    padding:    0px ;
+}
+prompt {
+    text-color: @text;
+    spacing:    0;
+    enabled: false;
+    font: "systemu bold 18";
+}
+entry {
+    text-color: @text;
+    spacing:    0px;
+    padding:      74px 29px 0px;
+    font: "systemu 9";
+    placeholder: "Type here to search";
+    placeholder-color: @disabled-text;
+}
+listview {
+    spacing:      0px ;
+    padding:      32px 27px 24px;
+    cycle: false;
+}
+element {
+    text-color:       @text;
+    border:  0px;
+    padding: 3px 0px 3px;
+}
+element.selected {
+    background-color: @selected-background;
+    text-color:       @selected-text;
+}
+element-icon {
+    size: 16px;
+    padding: 0px 3px 0px;
+    border: 0px;
+}
+element-text {
+    text-color: @text;
+    expand: true;
+    vertical-align: 0px;
+    margin:     2px 0px 0px -3px;
+}
+textbox {
+    text-color: @text;
+    padding: 175px 100px 100px;
+}

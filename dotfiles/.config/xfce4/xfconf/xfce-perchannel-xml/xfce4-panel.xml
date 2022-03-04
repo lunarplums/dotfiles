@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=8;x=960;y=1185"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="27"/>
+      <property name="output-name" type="string" value="Primary"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-image" type="string" value="/home/lunarplums/.local/share/themes/WinClassic/xfce4-panel/panel_stretched.png"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="4"/>
+        <value type="int" value="5"/>
+        <value type="int" value="11"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+      </property>
+      <property name="mode" type="uint" value="0"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="background-rgba" type="array">
+        <value type="double" value="1.000000"/>
+        <value type="double" value="1.000000"/>
+        <value type="double" value="1.000000"/>
+        <value type="double" value="0.794964"/>
+      </property>
+      <property name="disable-struts" type="bool" value="false"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="position" type="string" value="p=8;x=2000;y=1175"/>
+      <property name="size" type="uint" value="27"/>
+      <property name="output-name" type="string" value="HDMI-0"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-image" type="string" value="/home/lunarplums/.local/share/themes/WinClassic/xfce4-panel/panel_stretched.png"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="6"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="9"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-4" type="string" value="tasklist">
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="0"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="include-all-monitors" type="bool" value="false"/>
+      <property name="show-labels" type="bool" value="true"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-6" type="string" value="tasklist">
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="0"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="include-all-monitors" type="bool" value="false"/>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="true"/>
+    </property>
+    <property name="plugin-1" type="string" value="applicationsmenu">
+      <property name="show-tooltips" type="bool" value="true"/>
+      <property name="button-title" type="string" value="Start"/>
+      <property name="button-icon" type="string" value="/home/lunarplums/.local/share/themes/WinClassic/xfce4-panel/windows_16x16px.png"/>
+      <property name="show-button-title" type="bool" value="true"/>
+      <property name="show-menu-icons" type="bool" value="true"/>
+    </property>
+    <property name="plugin-3" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="digital-format" type="string" value="%l:%M %p"/>
+    </property>
+    <property name="plugin-9" type="string" value="clock">
+      <property name="digital-format" type="string" value="%I:%M %p"/>
+    </property>
+    <property name="plugin-11" type="string" value="systray">
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="steam"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="discord"/>
+      </property>
+      <property name="icon-size" type="int" value="16"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-items" type="array">
+        <value type="string" value="qBittorrent"/>
+        <value type="string" value="steam"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="false"/>
+      <property name="enable-multimedia-keys" type="bool" value="true"/>
+      <property name="enable-wnck" type="bool" value="false"/>
+      <property name="enable-mpris" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="cmus;firefox.instance10005;firefox.instance10198;firefox.instance14370;firefox.instance14593;firefox.instance1490;firefox.instance16431;firefox.instance1733;firefox.instance1738;firefox.instance1762;firefox.instance1885;firefox.instance20491;firefox.instance2052;firefox.instance2115;firefox.instance22658;firefox.instance23697;firefox.instance2467;firefox.instance2471;firefox.instance2496;firefox.instance2549;firefox.instance26013;firefox.instance2602;firefox.instance26106;firefox.instance2613;firefox.instance2655;firefox.instance2699;firefox.instance29789;firefox.instance3489;firefox.instance3540;firefox.instance720"/>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="enable-wnck" type="bool" value="false"/>
+      <property name="enable-multimedia-keys" type="bool" value="false"/>
+      <property name="enable-mpris" type="bool" value="false"/>
+      <property name="show-notifications" type="bool" value="false"/>
+      <property name="mpris-players" type="string" value="cmus;firefox.instance10005;firefox.instance10198;firefox.instance14370;firefox.instance14593;firefox.instance1490;firefox.instance16431;firefox.instance1733;firefox.instance1738;firefox.instance1762;firefox.instance1885;firefox.instance20491;firefox.instance2052;firefox.instance2115;firefox.instance22658;firefox.instance23697;firefox.instance2467;firefox.instance2471;firefox.instance2496;firefox.instance2549;firefox.instance26013;firefox.instance2602;firefox.instance26106;firefox.instance2613;firefox.instance2655;firefox.instance2699;firefox.instance29789;firefox.instance3489;firefox.instance3540;firefox.instance720"/>
+    </property>
+  </property>
+</channel>

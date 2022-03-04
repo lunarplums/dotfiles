@@ -1,0 +1,12 @@
+#Boot Commands
+#	/home/lunarplums/picom/build/src/picom --experimental-backend --animations --animation-stiffness 350 --animation-for-open-window zoom --animation-window-mass 0.5 --animation-dampening 25 &
+#	feh /home/lunarplums/.icewm/wallpapers/darkredcandle.png --bg-fill --no-fehbg &
+#	$HOME/.config/dunst/launch.sh &
+#	mpv --volume=80 "./.icewm/sounds/tms.wav"
+
+
+#Post Boot Programs
+#	xwinwrap -fs -fdt -ni -b -nf -un -o 1.0 -debug -- mpv --hwdec=nvdec -wid WID --loop --no-audio ~/.icewm/wallpapers/LofiCafe.avi
+
+dunst &
+	

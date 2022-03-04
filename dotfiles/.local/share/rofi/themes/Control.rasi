@@ -1,0 +1,77 @@
+/**
+ * Synthesis 1999 Control Menu
+ * User: lunarplums
+ */
+
+configuration {
+    display-window: "Windows:";
+    display-ssh: "SSH";
+    show-icons: true;
+    drun-display-format: "{icon} {name}";
+    me-accept-entry: "MousePrimary";
+    me-select-entry: "";
+}
+* {
+    font: "MS Sans Serif Bitmap 9";
+    background: #c0c0c000;
+    selected-background: #000080;
+    foreground: #ffffff00;
+    text:#000000;
+    selected-text: #ffffff;
+    disabled-text:#808080;
+    border-color: @foreground;
+    background-color: #c0c0c000;
+}
+window {
+    background-image:  url("/home/lunarplums/.local/share/themes/WinClassic/rofi/controlbg.png");
+    anchor: center;
+    height: 328px;
+    width: 417px;
+}
+mainbox {
+    border:  0px;
+    padding: 0px;
+}
+textbox {
+    text-color: @text;
+}
+listview {
+    spacing:      0px ;
+    padding:      135px 72px 0px;
+    cycle: false;
+}
+element-icon {
+    size: 16px;
+    border: 0px;
+}
+element-text {
+    text-color: @text;
+    expand: true;
+    vertical-align: 0;
+    margin:     2px 0px 0px 12px;
+}
+element {
+    text-color:       @text;
+    border:  0;
+    padding: 3px 0px 3px;
+}
+element.selected {
+    background-color: @selected-background;
+    text-color:       @selected-text;
+}
+inputbar {
+    text-color: @text;
+    spacing:    0;
+    padding:    0px ;
+    enabled: false;
+}
+entry {
+    text-color: @text;
+    spacing:    0;
+    enabled: false;
+}
+prompt {
+    text-color: @text;
+    spacing:    0;
+    enabled: false;
+}

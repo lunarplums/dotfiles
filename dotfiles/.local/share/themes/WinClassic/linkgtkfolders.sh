@@ -1,0 +1,39 @@
+#!/bin/bash
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/apps $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/assets $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/buttons $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/combobox $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/scrollbar $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-assistant.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-basic-effects.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-buttons.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-checks_radio.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-combobox.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-entry.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-frames.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-headerbars.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-headerbars_no-csd.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-list_cell_and_rows.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-menu.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-messagedialog.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-notebooks.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-paned.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-popovers.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-progressbar.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-scrollbar.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-scrolledwindows.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-separators.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-titlebars.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-titlebars_no-csd.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-toolbar.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-treeviews.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-viewports.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-widgets.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-window.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/gtk-windowbuttons.css $HOME/.config/gtk-3.0/ &
+#ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0/settings.ini $HOME/.config/gtk-3.0/ &
+
+ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.0 $HOME/.config/ &
+ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.22 $HOME/.config/ &
+ln -sf $HOME/.local/share/themes/WinClassic/gtk-3.24 $HOME/.config/

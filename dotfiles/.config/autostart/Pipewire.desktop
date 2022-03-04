@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=Pipewire
+Comment=Disable Service on Logout
+Exec=killall pipewire & killall pipewire-pulse & killall wireplumber
+OnlyShowIn=XFCE;
+RunHook=1
+StartupNotify=false
+Terminal=false
+Hidden=false
+

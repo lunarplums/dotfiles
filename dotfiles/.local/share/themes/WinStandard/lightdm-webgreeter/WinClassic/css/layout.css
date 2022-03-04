@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'MS Sans Serif Bitmap';
+  src:  url('../fonts/MSSansSerifBitmap-Regular.ttf') format('woff2'), url('../fonts/MSSansSerifBitmap-Bold.ttf');
+}
+
+html, body {
+    background: #008080;
+}
+
+body {
+    -webkit-user-select: none;
+    font-family: 'MS Sans Serif Bitmap';
+    font-size: 9pt;
+	font-smooth: never;
+}
+
+#box {
+    position: relative;
+    display: inline-block;
+}
+
+.box-text {
+    color: black;
+	margin-top: -82px;
+	margin-left: 160px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img, a, input, select {
+    outline: none;
+}
+
+button {
+  min-height: 23px;
+  min-width: 75px;
+  padding: 3px;
+  border: 1px solid;
+  border-radius: 0px;
+  transition: none;
+  color: #000000;
+  outline-color: #000000;
+  border-top-color: #ffffff;
+  border-right-color: #000000;
+  border-left-color: #ffffff;
+  border-bottom-color: #000000;
+  background-color: #c0c0c0;
+  box-shadow: inset -1px -1px #808080, inset 1px 1px #dfdfdf; }
+  button:hover {
+    -gtk-icon-effect: highlight; }
+  button:active,
+  button:checked,
+  button:disabled:active,
+  button:disabled:checked {
+    border-top-color: #000000;
+    border-right-color: #000000;
+    border-left-color: #000000;
+    border-bottom-color: #000000;
+    box-shadow: inset -1px -1px #808080, inset 1px 1px #808080; }
+
+hr {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+    border-left: none;
+    border-right: none;
+}
+
+#clock-widget span {
+    font: 'MS Sans Serif Bitmap';
+	font-size: 9pt;
+	font-smooth: never;
+    text-shadow: none;
+    font-color: white;
+    color: white;
+}
+
+#version {
+    float: left;
+}
+
+#hostname-widget {
+    float: right;
+}
+
+#form {
+    width: 100%;
+    float: left;
+}
+
+#form form {
+    position: relative;
+}
+
+#form form span.iconic {
+    position: absolute;
+    top: 0;
+    left: 0.5em;
+    line-height: 12pt;
+}
+
+#form form input {
+    width: 100%;
+    padding: 0 0 0 5px;
+    height: 20pt;
+    color: black;
+	background: transparent;
+	border-color: transparent;
+}
+
+#actions {
+    position: absolute;
+    top: -3em;
+    right: 0;
+    display: inline-block;
+    background: url(../img/fabric_of_squares_gray.png);
+    padding: 5px;
+    box-shadow: 2px 2px 5px #555;
+    border: 1px solid #f0f0f0;
+}
+
+#actions-inner {
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+}
+
+#actions-inner a {
+    margin-right: 10px;
+}
+
+#actions-inner a:hover {
+    cursor: pointer;
+}
+
+#actions-inner a:last-child {
+    margin-right: 0;
+}
+
+#message {
+    border: 0px solid red;
+    float: bottom;
+    color: black;
+    display: inline-block;
+    padding: 0px;
+}
+
+#message.error {
+    color: #f0f0f0;
+    background: #FF6B6B;
+    text-shadow: none;
+}
+
+
+
+#distro-widget {
+	float: right;
+	display: inline-block;
+	height: 100%;
+	text-align: center;
+    vertical-align: middle;
+    width: 30%;
+    margin: 5%;
+}
+
+#distro-widget img {
+	max-width: 100%;
+}
+
+.header img {
+	float: right;
+}

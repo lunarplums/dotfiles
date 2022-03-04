@@ -1,0 +1,7 @@
+[Sound Theme]
+Name=WinClassic
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo
+

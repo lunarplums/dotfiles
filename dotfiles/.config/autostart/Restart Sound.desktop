@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=Restart Sound
+Comment=Sound that plays on restart
+Exec=canberra-gtk-play -i logout
+OnlyShowIn=XFCE;
+RunHook=3
+StartupNotify=false
+Terminal=false
+Hidden=false
+

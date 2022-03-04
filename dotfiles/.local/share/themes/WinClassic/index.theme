@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=WinClassic
+Type=X-GNOME-Metatheme
+Comment=A theme that looks similar to 2000
+
+[X-GNOME-Metatheme]
+GtkTheme=WinClassic
+IconTheme=Windows-Standard-Icons
+CursorTheme=Windows-Standard-Cursor
+CursorSize=16

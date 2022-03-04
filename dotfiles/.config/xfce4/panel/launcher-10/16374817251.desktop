@@ -1,0 +1,11 @@
+[Xfce Panel]
+Type=X-XFCE-PanelPlugin
+Name=Applications Men
+Comment=Show a menu containing categories of installed applications
+Icon=org.xfce.panel.applicationsmenu
+X-XFCE-Module=applicationsmenu
+X-XFCE-Internal=TRUE
+X-XFCE-API=2.0
+
+[Desktop Entry]
+X-XFCE-Source=file:///home/lunarplums/xfce4-panel-4.16.0/plugins/applicationsmenu/applicationsmenu.desktop

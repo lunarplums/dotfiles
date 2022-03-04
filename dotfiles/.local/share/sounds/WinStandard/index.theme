@@ -1,0 +1,6 @@
+[Sound Theme]
+Name=WinStandard
+Directories=stereo
+
+[stereo]
+OutputProfile=stereo

@@ -1,0 +1,24 @@
+#XfceNotifyWindow {
+  background-color: #ffffe1;
+  color: #000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+#XfceNotifyWindow label#summary {
+    font-weight: Bold;
+}
+
+#XfceNotifyWindow button {
+	border: 1px solid transparent;
+	color: transparent;
+	background-color: transparent;
+}
+
+
+#XfceNotifyWindow progressbar trough {
+  padding: 2px;
+  
+}
+

@@ -1,0 +1,5 @@
+quit
+set status_display_program=/usr/local/bin/cmus-notify
+qiot
+QUIT
+a /run/media/lunarplums/Storage #2/Music/

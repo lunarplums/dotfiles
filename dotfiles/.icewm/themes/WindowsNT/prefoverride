@@ -1,0 +1,14 @@
+TimeFormat="%R"
+MenuMouseTracking=1
+
+#  Paint the background image over all multihead monitors combined
+	DesktopBackgroundMultihead=1 # 0/1
+
+#  Display desktop background centered and not tiled
+	DesktopBackgroundCenter=1 # 0/1
+
+#  Resize desktop background to full screen
+	DesktopBackgroundScaled=1 # 0/1
+
+#  Desktop background image(s)
+	DesktopBackgroundImage="./.config/xwinpapers/thickthighs.png"

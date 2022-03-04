@@ -1,0 +1,302 @@
+# Theme author
+ThemeAuthor="lunarplums"
+
+# Theme description
+ThemeDescription="Windows 2000"
+
+# Look
+Look=flat
+
+# Horizontal dialog window border
+DlgBorderSizeX=3 # 0-128
+
+# Vertical dialog window border
+DlgBorderSizeY=3 # 0-128
+
+# Horizontal window border
+BorderSizeX=3 # 0-128
+
+# Vertical window border
+BorderSizeY=3 # 0-128
+
+# Resize corner width
+CornerSizeX=22 # 0-64
+
+# Resize corner height
+CornerSizeY=22 # 0-64
+
+# Normal border color
+ColorNormalBorder="#d4d0c8"
+
+#Border of active windows.
+ColorActiveBorder = "#d4d0c8"
+
+# Normal minimized window color
+ColorNormalMinimizedWindow="#d4d0c8"
+
+# Normal minimized window text color
+ColorNormalMinimizedWindowText="#ffffff"
+
+# Active minimized window color
+ColorActiveMinimizedWindow="#d4d0c8"
+
+# Active minimized window text color
+ColorActiveMinimizedWindowText="#ffffff"
+
+# Move/size status color
+ColorMoveSizeStatus="#d4d0c8"
+
+# Move/size status text color
+ColorMoveSizeStatusText="#ffffff"
+
+# Shaped pixmaps protect client window
+ShapesProtectClientWindow=1 # 0 / 1
+
+# Fill highlight rectangle
+QuickSwitchFillSelection=0 # 0 / 1
+
+# Show text above icons
+QuickSwitchTextFirst=0 # 0 / 1
+
+# Border size of quick-switch icons
+QuickSwitchIconBorder=0 # 0-30
+
+# Size of icon margins of quick-switch icons
+QuickSwitchIconMargin=3 # 0-30
+
+# Horizontal margin of quick-switch window
+QuickSwitchHorzMargin=2 # 0-30
+
+# Vertical margin of quick-switch window
+QuickSwitchVertMargin=3 # 0-30
+
+# Size of the quick-switch window separator
+QuickSwitchSeparatorSize=3 # 0-30
+
+# Quick switch window color
+ColorQuickSwitch="#d4d0c8"
+
+# Quick switch text color
+ColorQuickSwitchText="#000000"
+
+# Color of quick-swith highlight rectangle
+ColorQuickSwitchActive="#0a2469"
+
+# Dialog box color
+ColorDialog="#d4d0c8"
+
+# List box color (Window list)
+ColorListBox="#d4d0c8"
+
+# List box text color (Window list)
+ColorListBoxText="#000000"
+
+# List box selection color (Window list)
+ColorListBoxSelection="rgb:80/80/80"
+
+# List box selection text color (Window list)
+ColorListBoxSelectionText="#000000"
+
+# Dialog Label color
+ColorLabel="#d4d0c8"
+
+# Dialog Label text color
+ColorLabelText="#000000"
+
+# Normal button color
+ColorNormalButton="#d4d0c8"
+
+# Normal button text color
+ColorNormalButtonText="#000000"
+
+# Active button color
+ColorActiveButton="#d4d0c8"
+
+# Active button text color
+ColorActiveButtonText="#000000"
+
+# Normal menu color
+ColorNormalMenu="#d4d0c8"
+
+# Active menu item color
+ColorActiveMenuItem="#0a2469"
+
+# Active menu item text color
+ColorActiveMenuItemText="#ffffff"
+
+# Normal menu item text color
+ColorNormalMenuItemText="#000000"
+
+# Disabled menu item text color
+ColorDisabledMenuItemText="rgb:80/80/80"
+
+# Color of disabled menu items
+ColorDisabledMenuItemShadow="rgb:87/85/7c"
+
+# Task tray has a bevel around it (Like the Windows system tray)
+TrayDrawBevel=1 # 0 / 1
+
+#Maximum scaled height of tray icons.
+TrayIconMaxHeight=21 # [16-128]
+
+#Maximum scaled width of tray icons.
+TrayIconMaxWidth=21 # [16-128]
+
+# Toolbar button color
+ColorToolButton="#d4d0c8"
+
+# Toolbar button text color
+ColorToolButtonText="#000000"
+
+# Horizontal scrollbar button size
+ScrollBarX=16 # 0-100
+
+# Vertical scrollbar button size
+ScrollBarY=16 # 0-100
+
+# Scroll bar color
+ColorScrollBar="#d4d0c8"
+
+# Scroll bar arrow color
+ColorScrollBarArrow="#d4d0c8"
+
+# Scroll bar slider color
+ColorScrollBarSlider="#d4d0c8"
+
+# Scrollbar button color
+ColorScrollBarButton="#d4d0c8"
+
+# Scrollbar button arrow color
+ColorScrollBarButtonArrow="rgb:00/00/00"
+
+# Inactive scrollbar button arrow color
+ColorScrollBarInactiveArrow="rgb:80/80/80"
+
+# Menu icon size
+MenuIconSize=12 # 8-128
+
+# Dimension of the small icons
+SmallIconSize=16 # 8-128
+
+# Dimension of the large icons
+LargeIconSize=24 # 8-128
+
+# Dimension of the extra large icons
+HugeIconSize=32 # 8-128
+
+#Display Menu Icon
+ShowMenuButtonIcon=1
+
+# Tooltip color
+ColorToolTip="#d4d0c8"
+
+# Tooltip text color
+ColorToolTipText="#000000"
+
+# Does the theme support the "O" title bar button images (for mouse rollover)
+RolloverButtonsSupported=0 # 0 / 1
+
+# Titlebar buttons supported by theme (x, m, i, r, h, s, d)
+TitleButtonsSupported="shxmi"
+
+# Titlebar buttons from left to right (x=close, m=max, i=min, h=hide, r=rollup, s=sysmenu)
+TitleButtonsLeft="s"
+
+# Titlebar buttons from right to left (x=close, m=max, i=min, h=hide, r=rollup, s=sysmenu)
+TitleButtonsRight="xmi"
+
+# Title bar height
+TitleBarHeight=19 # 0-128
+
+# Active title bar color
+ColorActiveTitleBar="#d4d0c8"
+
+# Normal title bar color
+ColorNormalTitleBar="#d4d0c8"
+
+# Active title bar text color
+ColorActiveTitleBarText="#ffffff"
+
+# Normal title bar text color
+ColorNormalTitleBarText="#d4d0c8"
+
+# Active title bar shadow
+ColorActiveTitleBarShadow=""
+
+# Inactive title bar shadow
+ColorNormalTitleBarShadow=""
+
+# Normal title button color
+ColorNormalTitleButton="#d4d0c8"
+
+# Normal title button text color
+ColorNormalTitleButtonText="#ffffff"
+
+# Title bar join right
+TitleBarJoinRight=1 # 0 / 1
+
+# Title bar join left
+TitleBarJoinLeft=0 # 0 / 1
+
+# Title bar text position
+TitleBarJustify=0 # 0-100
+
+# Title bar text horizontal offset
+TitleBarHorzOffset=1 # -128-128
+
+# Title bar text vertical offset
+TitleBarVertOffset=-1 # -128-128
+
+# Input color (Address bar)
+ColorInput="#d4d0c8"
+
+# Input text color (Address bar)
+ColorInputText="#ffffff"
+
+# Input selection color (Address bar)
+ColorInputSelection="#d4d0c8"
+
+# Input selection text color (Address bar)
+ColorInputSelectionText="#ffffff"
+
+# Desktop background color
+DesktopBackgroundColor="#3a6ea5"
+
+# Color of normal workspace button text
+ColorNormalWorkspaceButtonText="rgb:87/85/7c"
+
+# Color of active workspace button text
+ColorActiveWorkspaceButtonText="rgb:00/00/00"
+
+# Color of normal workspace button
+ColorNormalWorkspaceButton="#d4d0c8"
+
+# Color of active workspace button
+ColorActiveWorkspaceButton="#d4d0c8"
+
+#Background of non-LCD clock, leave empty to force transparency.
+ColorClock = "#d4d0c8"
+
+#Background of non-LCD monitor.
+ColorClockText = "#000000"
+
+# List of gradient images in the current theme
+Gradients="titleAT.xpm titleAB.xpm titleIB.xpm titleIT.xpm taskbarbg.xpm taskbuttonbg.xpm taskbuttonminimized.xpm taskbuttonactive.xpm toolbuttonbg.xpm menubg.xpm dialogbg.xpm"
+
+# Font Specification
+TitleFontNameXft			=	"system:size=8:bold,HGMaruGothicMPRO:size=8:bold"
+MenuFontNameXft				=	"system:size=8"
+MinimizedWindowFontNameXft	=	"system:size=8"
+ActiveButtonFontNameXft		=	"system:size=8"
+NormalButtonFontNameXft		=	"system:size=8"
+ToolButtonFontNameXft		=	"system:size=8"
+NormalWorkspaceFontNameXft	=	"system:size=8"
+ActiveWorkspaceFontNameXft	=	"system:size=8"
+QuickSwitchFontNameXft		=	"system:size=8"
+ListBoxFontNameXft			=	"system:size=8"
+StatusFontNameXft			=	"system:size=8"
+ToolTipFontNameXft			=	"system:size=8"
+ActiveTaskBarFontNameXft	=	"system:size=8"
+NormalTaskBarFontNameXft	=	"system:size=8"
+ClockFontNameXft			=	"system:size=8"
+InputFontNameXft			=	"system:size=8"
