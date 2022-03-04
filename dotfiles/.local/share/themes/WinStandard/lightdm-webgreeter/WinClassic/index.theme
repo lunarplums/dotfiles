@@ -1,6 +1,0 @@
-[theme]
-name=WinClassic
-description=Start?
-engine=lightdm-webkit-greeter
-url=index.html
-session=xfce
